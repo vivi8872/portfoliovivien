@@ -316,6 +316,7 @@ left: calc(50% - 1px);
     font-weight: 800;
     color: white;
     margin: 6px 0 15px;
+    padding: 9px;
 }
 .timeline-content{
     background-color: var(--bg-color);
@@ -573,7 +574,9 @@ left: calc(50% - 1px);
     }
     .timeline-item:nth-child(odd),
     .timeline-item:nth-child(even) {
-        padding-left: 37px;
+        padding-left: 30px;
+        text-align: left;
+        padding-right: inherit;
     }
     .timeline-dot {
         left: 0;
